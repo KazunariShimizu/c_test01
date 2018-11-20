@@ -4,7 +4,7 @@ int main()
         int num;
         int *pnum;
         num = 3;
-        pnum = &num
+        pnum = &num;
         printf("numの値は%dです。\n",num);
         printf("numのアドレスは%pです。\n",&num);
         printf("pnumの値は%pです。\n",pnum);
